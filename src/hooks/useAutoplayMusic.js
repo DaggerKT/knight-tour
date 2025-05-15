@@ -1,6 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 
-export default function useAutoplayMusic(src = "/background.wav", volume = 0.6) {
+export default function useAutoplayMusic(
+  src = "/background.wav",
+  volume = 0.6
+) {
   const audioRef = useRef(null);
   const [started, setStarted] = useState(false);
 

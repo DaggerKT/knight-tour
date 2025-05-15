@@ -1,9 +1,9 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { Box, Button, Typography, Stack } from "@mui/material";
 import KnightBoard from "../components/KnightBoard";
 import { useSound } from "../hooks/useSound";
-import ForwardIcon from '@mui/icons-material/Forward';
-import RestartAltIcon from '@mui/icons-material/RestartAlt';
+import ForwardIcon from "@mui/icons-material/Forward";
+import RestartAltIcon from "@mui/icons-material/RestartAlt";
 
 export default function GamePage({ boardSize, onBack }) {
   const [key, setKey] = useState(0);
@@ -22,9 +22,7 @@ export default function GamePage({ boardSize, onBack }) {
           onMouseDown={playClick}
           variant="contained"
         >
-          <ForwardIcon 
-            className="rotate-180"
-          />
+          <ForwardIcon className="rotate-180" />
           เลือกระดับ
         </Button>
         <Button
