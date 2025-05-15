@@ -1,7 +1,7 @@
 # ♞ Knight's Tour Game
 
 เกมฝึกสมองจำลองการเดินของ "ม้า" บนกระดานหมากรุก โดยผู้เล่นจะต้องเดินให้ครบทุกช่องโดยไม่ซ้ำ!  
-สร้างด้วย React + Vite + MUI พร้อมเสียง เอฟเฟกต์ และ UI ที่สวยงาม
+สร้างด้วย React + Vite + MUI พร้อมเสียง เอฟเฟกต์
 
 ---
 
@@ -54,5 +54,3 @@ npm run preview
 
 - ถ้ามีภาพ screenshot ให้เก็บไว้ใน `/public/screenshot.png`
 - ถ้าคุณจะเปิด Open Source → เพิ่ม section Contributors ได้ด้วย
-
----
