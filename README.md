@@ -1,12 +1,58 @@
-# React + Vite
+# ♞ Knight's Tour Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+เกมฝึกสมองจำลองการเดินของ "ม้า" บนกระดานหมากรุก โดยผู้เล่นจะต้องเดินให้ครบทุกช่องโดยไม่ซ้ำ!  
+สร้างด้วย React + Vite + MUI พร้อมเสียง เอฟเฟกต์ และ UI ที่สวยงาม
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ เลือกระดับความยาก: กระดาน 5x5 ถึง 8x8
+- ✅ กติกาเหมือนม้าในหมากรุก (เดินรูปตัว L)
+- ✅ ไฮไลต์ตำแหน่งที่เดินต่อได้
+- ✅ เสียงเอฟเฟกต์เวลา hover / เดิน
+- ✅ เสียงเพลงพื้นหลัง พร้อมปุ่มควบคุม (เล่น/หยุด)
+- ✅ แจ้งเตือนแบบสวยงามด้วย SweetAlert2
+- ✅ รองรับทั้ง Desktop และ Mobile
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖥️ Tech Stack
+
+- [React 19](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [MUI (Material UI)](https://mui.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [SweetAlert2](https://sweetalert2.github.io/)
+- 🔊 Background music + sound effect
+
+---
+
+## ▶️ วิธีใช้งาน
+
+### ติดตั้ง dependencies:
+```bash
+npm install
+```
+### รันโปรเจค:
+```bash
+npm run dev
+```
+### สร้างโปรเจคสำหรับ Production:
+```bash
+npm run build
+```
+### รันโปรเจค Production:
+```bash
+npm run preview
+```
+
+
+---
+
+## ✅ หมายเหตุเพิ่มเติม
+
+- ถ้ามีภาพ screenshot ให้เก็บไว้ใน `/public/screenshot.png`
+- ถ้าคุณจะเปิด Open Source → เพิ่ม section Contributors ได้ด้วย
+
+---
