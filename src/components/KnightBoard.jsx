@@ -139,7 +139,7 @@ export default function KnightBoard({ boardSize = 5 }) {
       >
         {isCurrent ? (
           <img
-            src="/knight.png"
+            src="/knight-tour/knight.png"
             alt="Knight"
             style={{ width: 30, height: 30 }}
           />

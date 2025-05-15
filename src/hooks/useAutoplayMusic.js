@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 export default function useAutoplayMusic(
-  src = "/background.wav",
+  src = "/knight-tour/background.wav",
   volume = 0.6
 ) {
   const audioRef = useRef(null);

@@ -21,11 +21,15 @@ export default function App() {
       <div className="absolute top-0 right-0 p-2">
         <MusicControl />
       </div>
-      {!boardSize ? (
-        <SelectDifficulty onSelect={setBoardSize} />
-      ) : (
+      {boardSize ? (
         <GamePage boardSize={boardSize} onBack={() => setBoardSize(null)} />
+      ) : (
+        <SelectDifficulty onSelect={setBoardSize} />
       )}
+
+      <div className="absolute bottom-0 left-0 p-2">
+        <p style={{ margin: 0 }}>Created by DaggerKT</p>
+      </div>
     </div>
   );
 }

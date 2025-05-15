@@ -6,15 +6,15 @@ function playSound(url) {
 
 export const useSound = () => {
   const playHover = () => {
-    playSound("/hover-btn.mp3");
+    playSound("/knight-tour/hover-btn.mp3");
   };
 
   const playClick = () => {
-    playSound("/click-btn.mp3");
+    playSound("/knight-tour/click-btn.mp3");
   };
 
   const playerMove = () => {
-    playSound("/player-move.wav");
+    playSound("/knight-tour/player-move.wav");
   };
 
   return { playHover, playClick, playerMove };
