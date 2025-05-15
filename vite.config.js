@@ -4,6 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import compression from "vite-plugin-compression";
 
 export default defineConfig({
+  base: "/knight-tour/",
   plugins: [
     react(),
     tailwindcss(),
